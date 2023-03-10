@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/root_layout"
+    android:gravity="center">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dbeceb"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which is your Favourite Color ?"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:onClick="radio_button_click"
+            android:textColor="@color/black"
+            android:background="#0BC513"/>
+        <RadioButton
+            android:id="@+id/Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:textColor="@color/black"
+            android:background="#CD1515"
+            android:onClick="radio_button_click"/>
+        <RadioButton
+            android:id="@+id/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:onClick="radio_button_click"/>
+        <RadioButton
+            android:id="@+id/Blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:textColor="@color/black"
+            android:background="#1533DC"
+            android:onClick="radio_button_click"/>
+        <RadioButton
+            android:id="@+id/Orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:textColor="@color/black"
+            android:background="#FB9703"
+            android:onClick="radio_button_click"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Your Answer"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="checked">Checked</string>
+    <string name="unchecked">Unchecked</string>
+</resources>
